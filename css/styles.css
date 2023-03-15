@@ -7,7 +7,7 @@
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -22,6 +22,10 @@ h2 {
     font-weight: 700;
     font-size: 3rem;
     line-height: 1.5;
+}
+
+h3 {
+    font-weight: 800;
 }
 
 /* Navagation Bar */
@@ -56,6 +60,8 @@ h2 {
 .title-img {
     width: 60%;
     transform: rotate(20deg);
+    position: relative;
+    left: 30%;
 }
 
 .title-img:hover {
@@ -74,6 +80,11 @@ h2 {
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    bottom: 13rem;
+    height: 15rem;
 }
 
 .feature-box h3 {
@@ -121,4 +132,16 @@ h2 {
 .press-img {
     width: 15%;
     margin: 20px 4rem 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-col {
+    padding: 3% 2%;
+    text-align: center;
 }
