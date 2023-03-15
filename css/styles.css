@@ -18,6 +18,12 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 /* Navagation Bar */
 
 .navbar {
@@ -53,7 +59,7 @@ h1 {
 }
 
 .title-img:hover {
-    transform: rotate(0deg);
+    transform: rotate(10deg);
 }
 
 /* Features Section */
@@ -71,7 +77,7 @@ h1 {
 }
 
 .feature-box h3 {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 1.2rem;
 }
 
@@ -86,4 +92,33 @@ h1 {
 .feature-box {
     text-align: center;
     padding: 5%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#testimonials img {
+    width: 10%;
+    clip-path: circle();
+    margin: 1.25rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 4rem 50px;
 }
